@@ -100,11 +100,13 @@ img {
 #footer-ul {
     display: flex;
     list-style: none;
+    color: white;
 
 }
 
 #footer-ul > div > li {
     margin-left: 12px;
+    color: white;
 }
 
 #footer-ul > div > li > a{
