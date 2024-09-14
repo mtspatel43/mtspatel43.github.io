@@ -109,7 +109,17 @@ img {
     color: white;
 }
 
+footer > h2 {
+    color: white;
+}
+
 #footer-ul > div > li > a{
     color: white;
-    text-decoration: none; 
+    text-decoration: none;
+}
+
+aside{
+border-left: 10px solid rgb(172, 172, 235); /* Adjust the width and color */
+padding-left: 20px; /* Space between the content and the border */
+background-color: rgb(83, 135, 213); /* Optional background color for the element */
 }
