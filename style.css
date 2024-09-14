@@ -123,3 +123,37 @@ border-left: 10px solid rgb(172, 172, 235); /* Adjust the width and color */
 padding-left: 20px; /* Space between the content and the border */
 background-color: rgb(83, 135, 213); /* Optional background color for the element */
 }
+.search-bar {
+    display: flex; /* Flexbox to align input and button */
+    align-items: center; /* Vertically center items */
+    width: 100%; /* Adjust the width */
+    max-width: 400px; /* Maximum width */
+    margin: 20px auto; /* Center the form horizontally */
+}
+
+/* Style for the input field */
+.search-input {
+    flex: 1; /* Take up remaining space */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px; /* Rounded corners on the left */
+    outline: none; /* Remove outline on focus */
+}
+
+/* Style for the search button */
+.search-button {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-left: none; /* Remove the border between input and button */
+    background-color: #ffffff; /* Button background color */
+    color: black; /* Button text color */
+    cursor: pointer;
+    border-radius: 0 4px 4px 0; /* Rounded corners on the right */
+}
+
+/* Optional: Change button background on hover */
+.search-button:hover {
+    background-color: #555;
+}
