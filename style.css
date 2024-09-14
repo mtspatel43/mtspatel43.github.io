@@ -7,6 +7,7 @@ body {
 
 blockquote { 
     font-size: 1em ;
+    margin: 0.4px;
 
 
 }
@@ -88,7 +89,7 @@ h2 {
 }
 
 body > footer {
-    background-color: orange;
+    background-color: rgb(48, 118, 231);
     display: flex;
 }
 
